@@ -1,4 +1,4 @@
-- name: KICS Github Action
+name: KICS Github Action
   uses: Checkmarx/kics-github-action@v1.6
   with:
     # path to file or directory to scan
