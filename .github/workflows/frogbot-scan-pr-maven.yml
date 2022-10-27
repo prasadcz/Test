@@ -30,10 +30,10 @@ jobs:
           JF_URL: https://cloudzenix.jfrog.io
           # [Mandatory if JF_ACCESS_TOKEN is not provided]
           # JFrog username with 'read' permissions for Xray. Must be provided with JF_PASSWORD
-
+          JF_USER: renuka.prasad@cloudzenix.com
           # [Mandatory if JF_ACCESS_TOKEN is not provided]
           
-
+          JF_PASSWORD: Prasad@123
           # [Mandatory]
           # The GitHub token automatically generated for the job
           JF_GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
