@@ -14,9 +14,9 @@ jobs:
       # make sure results dir is created
       run: mkdir -p results-dir
     - name: run kics Scan
-      uses: checkmarx/kics-action@latest
+      uses: Checkmarx/kics-github-action@v1.6
       with:
-        path: 'terraform,my-other-sub-folder/Dockerfile'
+        path: .
         fail_on: high,medium
         output_path: results-dir
     - name: display kics results
