@@ -19,7 +19,5 @@ jobs:
         path: .
         ##fail_on: high,medium
         output_path: results-dir
-    - name: display kics results
-      run: |
-        cat results-dir/results.json
+        run: cat results-dir/results.json
 
