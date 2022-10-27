@@ -54,3 +54,6 @@ jobs:
       #run: jf --version
       - name: Pushing the built artifact to Jfrog repository
         run: |
+             jf rt upload cz-springboot-welcome.jar maven-demo --url=https://cloudzenix.jfrog.io/artifactory/ --user=renuka.prasad@cloudzenix.com --password=Prasad@123
+             jf rt build-publish gitaction --buildname=$BUILD_NUMBER --url=https://cloudzenix.jfrog.io/artifactory/ --user=renuka.prasad@cloudzenix.com --password=Prasad@123
+             jf rt bs gitaction --buildname=$BUILD_NUMBER --url=https://cloudzenix.jfrog.io/artifactory/ --user=renuka.prasad@cloudzenix.com --password=Prasad@123 --fail=false
