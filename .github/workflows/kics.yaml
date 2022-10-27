@@ -17,7 +17,7 @@ jobs:
       uses: Checkmarx/kics-github-action@v1.6
       with:
         path: .
-        fail_on: high,medium
+        ##fail_on: high,medium
         output_path: results-dir
     - name: display kics results
       run: |
