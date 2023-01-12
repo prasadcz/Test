@@ -36,7 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>cz-springboot-welcome</finalName>
+		<finalName>springboot-welcome</finalName>
 	</build>
 
 </project>
